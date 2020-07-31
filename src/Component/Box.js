@@ -1,8 +1,8 @@
 import React from 'react';
+// make sure you you import the file with app.js
 
 
-
-
+//create a class component to change the variable color
 export default class Box extends React.Component{
   constructor(props){
     super(props);
