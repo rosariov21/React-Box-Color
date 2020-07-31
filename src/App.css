@@ -1,4 +1,33 @@
+body{
+  color: aqua;
+  background-color: bisque;
+}
+button:hover{
+  color:black;
+  background-color: red;
+  padding: 20px;
+  margin: auto;
+  align-items: center;
 
+
+  
+
+  
+}
+div{
+  height: 300px;
+  border-radius: 360px;
+}
+
+h1{
+  margin: auto;
+  padding: 20px;
+  color: black;
+  display: flex;
+  font-style: italic;
+  font-size: 100px;
+
+}
 
 
 
