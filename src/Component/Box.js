@@ -14,7 +14,7 @@ export default class Box extends React.Component{
   let red = Math.floor(Math.random()*255) //i have to use math.random to select a random color of component green
   let green = Math.floor(Math.random()*255)//the number 255 is between the rgb colors thats the max number i can go up to 0 is the min 
   let blue =  Math.floor(Math.random()*255)
-  console.log(this.state.color)
+  console.log(this.state.color)//this is to make sure its functioning on my cosole it shows up rgb 
   this.setState({color:`rgb(${red},${green},${blue})`})
   }
   render(){
