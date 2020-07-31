@@ -9,9 +9,10 @@ export default class Box extends React.Component{
     this.state = { color:"blue" };
     this.changeColor = this.changeColor.bind(this);
   }
+  // in this part i want to create a button where i can randomly change the color with a click of a button
   changeColor(){
-  let red = Math.floor(Math.random()*255)
-  let green = Math.floor(Math.random()*255)
+  let red = Math.floor(Math.random()*255) //i have to use math.random to select a random color of component green
+  let green = Math.floor(Math.random()*255)//
   let blue =  Math.floor(Math.random()*255)
   console.log(this.state.color)
   this.setState({color:`rgb(${red},${green},${blue})`})
