@@ -15,11 +15,11 @@ export default class Box extends React.Component{
   let green = Math.floor(Math.random()*255)//the number 255 is between the rgb colors thats the max number i can go up to 0 is the min 
   let blue =  Math.floor(Math.random()*255)
   console.log(this.state.color)//this is to make sure its functioning on my cosole it shows up rgb 
-  this.setState({color:`rgb(${red},${green},${blue})`})
+  this.setState({color:`rgb(${red},${green},${blue})`})// now use setState usng the variables 
   }
   render(){
     return(
-      <div style={{backgroundColor: this.state.color}}>
+      <div style={{backgroundColor: this.state.color}}> //this is the html part we just ast some style so it can show up in the page 
       <h1>Changed color</h1>
       <button onClick={this.changeColor}>CHANGE MY COLOR</button>
       </div>
