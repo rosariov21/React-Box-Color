@@ -6,7 +6,7 @@ import Box from './Component/Box';
 
 function App() {
   return (<div className='box'>
-    <Box/>
+    <Box/> //this is important dont forget to link it with your js file 
     </div>
   );
 }

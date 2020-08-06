@@ -11,6 +11,7 @@ button:hover{
 
 
   
+<<<<<<< HEAD
 
   
 }
@@ -28,3 +29,27 @@ h1{
 font-family: 'Lemonada', cursive;
 
 }
+=======
+
+  
+}
+div{
+  height: 300px;
+  border-radius: 360px;
+}
+
+h1{
+  margin: auto;
+  padding: 20px;
+  color: black;
+  display: flex;
+  font-style: italic;
+  font-size: 100px;
+
+}
+
+
+
+
+
+>>>>>>> 95a6ead9f3d8f11f7251984f8983222b7540d652
